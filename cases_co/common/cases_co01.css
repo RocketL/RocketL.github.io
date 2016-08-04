@@ -1,0 +1,159 @@
+/*全局样式定义开始*/
+body,ul,li,a,p,div,span,table,tr,th,td{margin:0px;padding:0px;}
+body{
+	background-color:#EBEBEB;
+}
+ul,li{list-style:none;}
+/*全局样式定义结束*/
+
+/*右侧悬浮窗样式定义开始*/
+.fixed_contact{
+	z-index:999;
+	width:80px;
+	height:auto;
+	background-color:#EBEBEB;
+	position:fixed; /*固定定位*/
+	right:15px;
+	top:200px;     /*在浏览器窗口中上下居，(浏览器窗口的高-固定定位元素的高)/2  */
+}
+/*右侧悬浮窗样式定义结束*/
+
+/*Top样式定义开始*/
+.box{
+	width:1050px;margin:0px auto;height:80px;
+	background:url(../../img/top/top_back_img.jpg) repeat-x  ;
+}
+/*top层样式*/
+
+.logo{height:60px;padding:20px 30px 5px 30px;float:left;}
+
+/*导航栏*/
+.header .nav{height:30px;line-height:30px;}
+.header .nav li{float:left;padding:50px 5px 5px;}
+.header .nav a{
+	width:80px;
+	height:30px;
+	display:inline-block;
+	text-align:center;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+.header .nav a:hover{background:url(../../img/top/nav_hover03.jpg) no-repeat;}
+
+#cases_flag{
+background:url(../../img/top/nav_hover03.jpg) no-repeat;
+}
+/*全局类样式*/
+#noLine{border:none;}
+/*全局样式定义结束*/
+
+/*Main_Body样式定义开始*/
+
+.main_body{
+	height:auto;
+	width:1050px; 
+	MARGIN-RIGHT: auto; 
+	MARGIN-LEFT: auto; 
+	position:relative;
+	background-color:#009900;
+	}
+	.main_body #main_table
+	{
+		height:auto;
+		width:1050px;
+		
+	}
+	/*main_left样式定义开始*/
+	.main_body #main_left{
+		height:auto;
+		width:200px;
+		background-color:#666666;
+	}
+	#main_left_top{
+		background-image:url(../../img/cases/co/bg_main_left_top.png);
+		background-repeat:repeat-y;
+		padding-bottom:5px;
+		padding-left:5px;
+		margin-bottom:5px;
+		padding-top:10px;
+		text-align:left;
+		font-weight:bold;
+		font-size:24px;
+		color:#FFFFFF;
+	}
+	#main_table .case_category
+	{
+		width:150px;
+		height:30px;
+		display:inline-block;
+		text-align:center;
+		color:#fff;
+		text-decoration:none;
+		font-weight:bold;	
+	}
+	/*main_left样式定义结束*/
+	/*main_right样式定义开始*/
+	.main_right_top_nav{
+	margin-bottom:5px;
+	}
+	.main_right_position{
+	text-decoration:none;
+	color:#333333;
+	
+	}
+	.case_item_div{
+		margin-left:5px;
+		margin-right:5px;
+	}
+	.main_body #main_right{
+		height:auto;
+		width:850px;
+		background-color:#fff;
+		}
+	#main_table_right{
+		margin-top:15px;
+		margin-left:5px;
+		margin-right:5px;
+		margin-bottom:400px;
+		
+		}
+/***图文样式区定义**/
+
+	#cases_content{
+	width:700px;
+	color:#666666;
+	margin-left:10px;
+	line-height:22px;
+	text-indent:30px;
+	}
+	#content_title{
+	text-align:center;
+	}
+	.cases_img{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top:10px;
+	margin-bottom:5px;
+	}
+
+
+
+
+
+
+	/*main_right样式定义结束*/
+/*Main_Body样式定义结束*/
+
+
+
+/*Bottom样式定义开始*/
+.bottom{height:80px;width:1050px;background-color:#333333;MARGIN-RIGHT: auto; MARGIN-LEFT: auto;}
+/*Bottom定义结束*/
+.bottom .bottom_contact{width:500px; MARGIN-RIGHT: auto; MARGIN-LEFT: auto;}
+.bottom .bottom_contact .bottom_table{font-size:16px;color:#CCCCCC;font-weight:lighter}
+.bottom .bottom_beian{float:right; margin:-5px 0px;}
+/*Bottom样式定义结束*/
+

@@ -1,0 +1,77 @@
+/*全局样式定义开始*/
+body,ul,li,a,p,div,span{margin:0px;padding:0px;}
+body{
+	background-color:#EBEBEB;
+}
+ul,li{list-style:none;}
+/*全局样式定义结束*/
+
+/*右侧悬浮窗样式定义开始*/
+.fixed_contact{
+	z-index:999;
+	width:80px;
+	height:auto;
+	background-color:#EBEBEB;
+	position:fixed; /*固定定位*/
+	right:15px;
+	top:200px;     /*在浏览器窗口中上下居，(浏览器窗口的高-固定定位元素的高)/2  */
+}
+/*右侧悬浮窗样式定义结束*/
+
+/*Top样式定义开始*/
+.box{
+	width:1050px;margin:0px auto;height:80px;
+	background:url(../img/top/top_back_img.jpg) repeat-x  ;
+}
+/*top层样式*/
+
+.logo{height:60px;padding:20px 30px 5px 30px;float:left;}
+
+/*导航栏*/
+.header .nav{height:30px;line-height:30px;}
+.header .nav li{float:left;padding:50px 5px 5px;}
+.header .nav a{
+	width:80px;
+	height:30px;
+	display:inline-block;
+	text-align:center;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+.header .nav a:hover{background:url(../img/top/nav_hover03.jpg) no-repeat;}
+#solution_flag{
+background:url(../img/top/nav_hover03.jpg) no-repeat;
+}
+#contactus_flag{
+background:url(../img/top/nav_hover03.jpg) no-repeat;
+}
+/*全局类样式*/
+#noLine{border:none;}
+/*全局样式定义结束*/
+
+/*Main_Body样式定义开始*/
+.main_body{
+	height:auto;
+	width:1050px; 
+	MARGIN-RIGHT: auto; 
+	MARGIN-LEFT: auto; 
+	position:relative;
+	background-color:#009900;
+	padding-top:0px;
+	}
+.contactus_img{
+	width:1050px;
+}
+/*Main_Body样式定义结束*/
+
+
+
+/*Bottom样式定义开始*/
+.bottom{height:80px;width:1050px;background-color:#333333;MARGIN-RIGHT: auto; MARGIN-LEFT: auto;}
+/*Bottom定义结束*/
+.bottom .bottom_contact{width:500px; MARGIN-RIGHT: auto; MARGIN-LEFT: auto;}
+.bottom .bottom_contact .bottom_table{font-size:16px;color:#CCCCCC;font-weight:lighter}
+.bottom .bottom_beian{float:right; margin:-5px 0px;}
+/*Bottom样式定义结束*/
+
