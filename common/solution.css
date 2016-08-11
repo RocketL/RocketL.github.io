@@ -1,5 +1,6 @@
 /*全局样式定义开始*/
 body,ul,li,a,p,div,span{margin:0px;padding:0px;}
+img{border:none;}
 body{
 	background-color:#EBEBEB;
 }

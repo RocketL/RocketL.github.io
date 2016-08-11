@@ -1,5 +1,6 @@
 /*全局样式定义开始*/
 body,ul,li,a,p,div,span{margin:0px;padding:0px;}
+img{border:none;}
 body{
 	background-color:#EBEBEB;
 }
@@ -52,7 +53,7 @@ background:url(../img/top/nav_hover03.jpg) no-repeat;
 
 /*Main_Body样式定义开始*/
 .main_body{
-	height:600px;
+	height:auto;
 	width:1050px; 
 	MARGIN-RIGHT: auto; 
 	MARGIN-LEFT: auto; 
@@ -60,45 +61,39 @@ background:url(../img/top/nav_hover03.jpg) no-repeat;
 	background-color:#009900;
 	padding-top:0px;
 	}
-.main_body #list01_left{
-	height:200px;
-	width:30%;
-	background-color:#003366;
-	padding-top:0px;
-	float:left;
-	}
-.main_body #list01_right{
-	height:200px;
-	width:70%;
-	background-color:#330000;
-	float:right;
-	}
-.main_body #list02_left{
-	height:200px;
-	width:70%;
-	background-color:#993399;
-	float:left;
+#main_table{
+	height:auto;
+	width:1050px;
+	padding-left:20px;
+	padding-right:20px;
+	background-color:#dddddd;
+	padding-top:10px;
+}
+#main_table .table_td_title{
+	width:100px;
+	height:60px;
+	padding:5px;
+	background-color:#006633;
+	color:#dddddd;
+	font-size:20px;
+	vertical-align:text-top;
+}
+#main_table .table_td_content{
+	width:100px;
+	height:auto;
+	padding:5px;
+	background-color:#cccccc;
+	padding-bottom:25px;
+	color:#333333;
+	text-indent:30px;
+	font-size:18px;
+	vertical-align:text-top;
+	line-height:26px;
+}
+#main_table .table_tr_content{
 	
-	}
-.main_body #list02_right{
-	height:200px;
-	width:30%;
-	background-color:#003366;
-	float:right;
-	}
-.main_body #list03_left{
-	height:200px;
-	width:30%;
-	background-color:#003366;
-	float:left;
-	}
-.main_body #list03_right{
-	height:200px;
-	width:70%;
-	background-color:#330000;
-	float:right;
-	}
 
+}
 /*Main_Body样式定义结束*/
 
 

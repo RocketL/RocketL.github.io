@@ -1,5 +1,6 @@
 /*全局样式定义开始*/
 body,ul,li,a,p,div,span{margin:0px;padding:0px;}
+img{border:none;}
 body{
 	background-color:#EBEBEB;
 }
@@ -50,7 +51,7 @@ background:url(../img/top/nav_hover03.jpg) no-repeat;
 
 /*Main_Body样式定义开始*/
 .main_body{
-	height:600px;
+	height:auto;
 	width:1050px; 
 	MARGIN-RIGHT: auto; 
 	MARGIN-LEFT: auto; 
@@ -58,44 +59,10 @@ background:url(../img/top/nav_hover03.jpg) no-repeat;
 	background-color:#009900;
 	padding-top:0px;
 	}
-.main_body #list01_left{
-	height:200px;
-	width:30%;
-	background-color:#003366;
-	padding-top:0px;
-	float:left;
-	}
-.main_body #list01_right{
-	height:200px;
-	width:70%;
-	background-color:#330000;
-	float:right;
-	}
-.main_body #list02_left{
-	height:200px;
-	width:70%;
-	background-color:#993399;
-	float:left;
-	
-	}
-.main_body #list02_right{
-	height:200px;
-	width:30%;
-	background-color:#003366;
-	float:right;
-	}
-.main_body #list03_left{
-	height:200px;
-	width:30%;
-	background-color:#003366;
-	float:left;
-	}
-.main_body #list03_right{
-	height:200px;
-	width:70%;
-	background-color:#330000;
-	float:right;
-	}
+.profile_img{
+	width:1050px;
+}
+
 
 /*Main_Body样式定义结束*/
 

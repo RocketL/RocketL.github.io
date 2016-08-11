@@ -1,5 +1,6 @@
 /*全局样式定义开始*/
-body,ul,li,a,p,div,span{margin:0px;padding:0px;}
+body,ul,li,a,p,div,span{margin:0px;padding:0px; }
+img{border:none;}
 body{
 	background-color:#EBEBEB;
 }
@@ -22,6 +23,10 @@ ul,li{list-style:none;}
 .box{
 	width:1050px;margin:0px auto;height:80px;
 	background:url(../img/top/top_back_img.jpg) repeat-x  ;
+}
+#top_img_logo{
+	height:60px;
+	border:none;
 }
 /*top层样式*/
 
@@ -61,8 +66,8 @@ position:relative;
 	position:absolute;
 	z-index:2;
 	margin:0 auto;
-	width:130px;
-	left: 871px;
+	width:auto;
+	left: 796px;
 	top: 467px;
 	}
 .button_sliders li{float:left;margin:1px 1px}
@@ -102,4 +107,3 @@ position:relative;
 .bottom .bottom_contact .bottom_table{font-size:16px;color:#CCCCCC;font-weight:lighter}
 .bottom .bottom_beian{float:right; margin:-5px 0px;}
 /*Bottom样式定义结束*/
-
